@@ -31,10 +31,49 @@ cd /workspaces/tmp
 
 ```sh
 git clone https://github.com/404CellPhoneRepair/Github-Examples.git
-
-cd Github-Examples
 ```
 
+> You'll need to generate a Personal Access Token (PAT)
+https://github.com/settings/personal-access-tokens
+
+You will use the (PAT) as your password when you login 
+
+- Give it access to contents for commits
+
+cd Github-Examples
+
+## SSH
+
+```ssh
+git clone git@github.com:404CellPhoneRepair/Github-Examples.git
+
+cd /Github-Examples
+```
+We will need to create our own rsa SSH key pair 
+
+```sh
+sshe-keygen -t sha
+```
+
+We can test our connection here:
+
+```
+ssh -T git@github.com
+```
+For WSL users and if you create a non default key you might need to add it
+
+```ssh
+eval `ssh-agent`
+ssh-add /home/andrew/.ssh/alt-github_id_rsa
+```
+## Github CLI
+Install the CLI
+
+eg. Linux (Ubuntu) 
+```sh
+sudo apt update
+sudo apt install gh
+```
 
 ## Commits
 
@@ -53,6 +92,22 @@ git commit -m "Added another exclamation mark"
 ```
 
 ## Branches
+
+
+List of branches
+
+```
+git branch
+```
+Create a new branch
+```
+git branch branch-name
+```
+Check out branches
+
+```
+git checkout dev
+``` 
 
 
 ## Remotes
