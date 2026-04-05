@@ -98,6 +98,10 @@ Github CLI cheat sheet
 
 https://cli.github.com/manual/gh_issue_create
 
+Github Flavour Markdown
+
+https://github.github.com/gfm/
+
 [Secret Page](/markdown/Secret.mdmarkdown/Secret.md)
 
 ## Tasks Lists
