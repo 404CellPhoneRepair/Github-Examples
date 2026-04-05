@@ -90,7 +90,13 @@ bar | baz
  > baz
 
 ## Links
-Github website https://github.com
+Github website 
+
+https://github.com
+
+Github CLI cheat sheet 
+
+https://cli.github.com/manual/gh_issue_create
 
 [Secret Page](/markdown/Secret.mdmarkdown/Secret.md)
 
