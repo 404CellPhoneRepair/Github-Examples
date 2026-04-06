@@ -73,10 +73,10 @@ end
 :-: | -----------:
 bar | baz
 
-| abc | def |
-| --- | --- |
-| bar |
-| bar | baz | boo |
+First|Second
+-|-
+1|2
+3|4
 
 | abc | def |
 | --- | --- |
