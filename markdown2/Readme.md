@@ -86,7 +86,7 @@ First|Second
 >  "The cloud is amazing"
 
    > # Foo
-   > bar
+   > bar   
  > baz
 
 ## Links
