@@ -173,7 +173,7 @@ git add .
 git reset
 ```
 
-> git reset will revet a git add. 
+> git reset will revert a git add. 
 
 ## Status
 
