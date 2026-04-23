@@ -21,7 +21,7 @@ git commit -m "add readme file"
 
 We can clone three ways: HTTPS, SSH, Github CLI
 
-Since we are using GitHub Codespaecs we'll a create temporary directory in our workspace
+Since we are using GitHub Codespaces we'll a create temporary directory in our workspace
 
 ```sh
 mkdir /workspace/tmp
